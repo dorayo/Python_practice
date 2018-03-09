@@ -57,6 +57,6 @@ def add_watermark(pdf_file, pdf_watermark, output_dir='output'):
 
 if __name__ == '__main__':
     # 创建水印文件
-    pdf_watermark = create_watermark("Dorayo's Resume - http://dorayo.com")
-    add_watermark("./Resume4Dorayo.pdf", pdf_watermark)
+    pdf_watermark = create_watermark("copyright - http://dorayo.com")
+    add_watermark("origin.pdf", pdf_watermark)
 
